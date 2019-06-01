@@ -148,14 +148,15 @@ button {
   padding-right: 15px;
 }
 
-/*#form-wrapper form label,
+#form-wrapper form label,
 #form-wrapper form .label {
   display: block;
   font-size: 0.9em;
   margin-bottom: 7.5px;
   text-transform: capitalize;
 }
-#form-wrapper form input[type="radio"] + label,
+
+/*#form-wrapper form input[type="radio"] + label,
 #form-wrapper form input[type="checkbox"] + label {
   display: inline-block;
 }
