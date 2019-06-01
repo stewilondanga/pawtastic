@@ -250,12 +250,13 @@ button {
   display: block;
 }
 
-/*#form-wrapper form .signup__button {
+#form-wrapper form .signup__button {
   background: #FFFFFF;
   display: block;
   text-align: right;
 }
-#form-wrapper form .signup__button button {
+
+/*#form-wrapper form .signup__button button {
   background: #393D52;
   border: 1px solid transparent;
   outline: 0;
