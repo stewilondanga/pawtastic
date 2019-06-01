@@ -212,10 +212,11 @@ button {
   top: -1px;
 }
 
-/*#form-wrapper form input[type="radio"]:checked:focus + label:before {
+#form-wrapper form input[type="radio"]:checked:focus+label:before {
   border: 2px solid #FFF;
 }
-#form-wrapper form input[type="checkbox"] + label {
+
+/*#form-wrapper form input[type="checkbox"] + label {
   position: relative;
 }
 #form-wrapper form input[type="checkbox"] + label:before {
