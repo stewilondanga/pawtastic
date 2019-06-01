@@ -216,10 +216,11 @@ button {
   border: 2px solid #FFF;
 }
 
-/*#form-wrapper form input[type="checkbox"] + label {
+#form-wrapper form input[type="checkbox"]+label {
   position: relative;
 }
-#form-wrapper form input[type="checkbox"] + label:before {
+
+/*#form-wrapper form input[type="checkbox"] + label:before {
   background: #FFF;
   border: 1px solid #e2beba;
   border-radius: 3px;
