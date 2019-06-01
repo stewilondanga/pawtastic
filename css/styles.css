@@ -168,7 +168,7 @@ button {
   width: 15px;
 }
 
-/*#form-wrapper form input[type="radio"] + label {
+#form-wrapper form input[type="radio"]+label {
   border-radius: 3px;
   cursor: pointer;
   padding: 7.5px 15px;
@@ -178,7 +178,8 @@ button {
   text-align: center;
   width: 100%;
 }
-#form-wrapper form input[type="radio"] + label:before {
+
+/*#form-wrapper form input[type="radio"] + label:before {
   background: rgba(195, 123, 115, 0.1);
   border: 1px solid rgba(195, 123, 115, 0.5);
   border-radius: 3px;
