@@ -191,11 +191,12 @@ button {
   left: 0;
 }
 
-/*#form-wrapper form input[type="radio"] + label:after {
+#form-wrapper form input[type="radio"]+label:after {
   content: "";
   display: block;
 }
-#form-wrapper form input[type="radio"]:focus + label:before {
+
+/*#form-wrapper form input[type="radio"]:focus + label:before {
   border: 2px solid #c37b73;
 }
 #form-wrapper form input[type="radio"]:checked + label {
