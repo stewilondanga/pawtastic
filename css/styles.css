@@ -3,6 +3,13 @@
   transition: 0.5s;
 }
 
+body {
+  background: #84889C;
+  color: #171A2B;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9em;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -37,12 +44,6 @@
   font-style: normal;
   font-weight: 400;
   src: local('Song Myung Regular'), local('SongMyung-Regular'), url(https://fonts.gstatic.com/s/songmyung/v7/1cX2aUDWAJH5-EIC7DIhn1aggQ.ttf) format('truetype');
-}
-body {
-  background: #84889C;
-  color: #171A2B;
-  font-family: "Montserrat", sans-serif;
-  font-size: 0.9em;
 }
 h1,
 h2,
