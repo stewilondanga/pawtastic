@@ -242,10 +242,11 @@ button {
   top: 0;
 }
 
-/*#form-wrapper form input[type="checkbox"]:focus + label:before {
+#form-wrapper form input[type="checkbox"]:focus+label:before {
   border-color: #c37b73;
 }
-#form-wrapper form .signup__field {
+
+/*#form-wrapper form .signup__field {
   display: block;
 }
 #form-wrapper form .signup__button {
