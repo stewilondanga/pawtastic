@@ -275,31 +275,36 @@ button {
   border: 1px solid #NaNNaNNaN;
 }
 
-/*@media (min-width: 600px) {
+@media (min-width: 600px) {
   #form-wrapper {
     grid-template-columns: 1fr 2.5fr;
     margin: 45px 30px;
   }
+
   #form-wrapper .decorative-image {
     background-image: url("https://placekitten.com/200/500");
     background-position-y: bottom;
   }
+
   #form-wrapper form fieldset,
   #form-wrapper form h1,
   #form-wrapper form .signup__field,
   #form-wrapper form .signup__button {
     padding: 15px 30px;
   }
+
   #form-wrapper form .signup__field {
     display: inline-block;
   }
-  #form-wrapper form input[type="radio"] + label {
+
+  #form-wrapper form input[type="radio"]+label {
     margin-bottom: 15px;
     margin-left: -25px;
     width: 45%;
   }
 }
-@media (min-width: 800px) {
+
+/*@media (min-width: 800px) {
   #form-wrapper {
     grid-template-columns: 1fr 2fr;
   }
