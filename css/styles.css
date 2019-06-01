@@ -104,13 +104,14 @@ button {
   background: #F1E0DE;
 }
 
-/*#form-wrapper form fieldset,
+#form-wrapper form fieldset,
 #form-wrapper form h1,
 #form-wrapper form .signup__field,
 #form-wrapper form .signup__button {
   padding: 15px 30px;
 }
-#form-wrapper form fieldset {
+
+/*#form-wrapper form fieldset {
   border: 0;
 }
 #form-wrapper form fieldset legend {
