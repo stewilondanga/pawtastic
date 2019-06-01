@@ -100,10 +100,11 @@ button {
   width: 100%;
 }
 
-/*#form-wrapper form {
+#form-wrapper form {
   background: #F1E0DE;
 }
-#form-wrapper form fieldset,
+
+/*#form-wrapper form fieldset,
 #form-wrapper form h1,
 #form-wrapper form .signup__field,
 #form-wrapper form .signup__button {
