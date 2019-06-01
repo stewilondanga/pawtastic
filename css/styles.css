@@ -322,24 +322,28 @@ button {
   }
 }
 
-/*@media (min-width: 1000px) {
+@media (min-width: 1000px) {
   #form-wrapper {
     margin: 75px 60px;
   }
+
   #form-wrapper .decorative-image {
     background-image: url("https://placekitten.com/400/850");
   }
+
   #form-wrapper form fieldset,
   #form-wrapper form h1,
   #form-wrapper form .signup__field,
   #form-wrapper form .signup__button {
     padding: 15px 60px;
   }
-  #form-wrapper form fieldset + .signup__field:nth-child(odd) {
+
+  #form-wrapper form fieldset+.signup__field:nth-child(odd) {
     padding-left: 60px;
   }
 }
 
+/*
 .containers {
   width: 520px;
   margin: 20px auto;
