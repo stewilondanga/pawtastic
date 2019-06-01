@@ -32,13 +32,14 @@ body {
   src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v13/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf) format('truetype');
 }
 
-/*@font-face {
+@font-face {
   font-family: 'Song Myung';
   font-style: normal;
   font-weight: 400;
   src: local('Song Myung Regular'), local('SongMyung-Regular'), url(https://fonts.gstatic.com/s/songmyung/v7/1cX2aUDWAJH5-EIC7DIhn1aggQ.ttf) format('truetype');
 }
-h1,
+
+/*h1,
 h2,
 h3,
 h4,
