@@ -75,11 +75,12 @@ h1 a:hover:after {
   width: 100%;
 }
 
-/*input,
+input,
 button {
   font-family: "Montserrat", sans-serif;
 }
-#form-wrapper {
+
+/*#form-wrapper {
   border-radius: 5px;
   display: grid;
   grid-template-columns: 1fr;
