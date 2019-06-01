@@ -271,10 +271,11 @@ button {
   cursor: pointer;
 }
 
-/*#form-wrapper form .signup__button button:focus {
+#form-wrapper form .signup__button button:focus {
   border: 1px solid #NaNNaNNaN;
 }
-@media (min-width: 600px) {
+
+/*@media (min-width: 600px) {
   #form-wrapper {
     grid-template-columns: 1fr 2.5fr;
     margin: 45px 30px;
