@@ -111,10 +111,11 @@ button {
   padding: 15px 30px;
 }
 
-/*#form-wrapper form fieldset {
+#form-wrapper form fieldset {
   border: 0;
 }
-#form-wrapper form fieldset legend {
+
+/*#form-wrapper form fieldset legend {
   font-family: "Song Myung";
   font-size: 1.2em;
   font-weight: 600;
