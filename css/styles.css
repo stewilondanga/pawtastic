@@ -220,7 +220,7 @@ button {
   position: relative;
 }
 
-/*#form-wrapper form input[type="checkbox"] + label:before {
+#form-wrapper form input[type="checkbox"]+label:before {
   background: #FFF;
   border: 1px solid #e2beba;
   border-radius: 3px;
@@ -231,7 +231,8 @@ button {
   height: 15px;
   width: 15px;
 }
-#form-wrapper form input[type="checkbox"]:checked + label:after {
+
+/*#form-wrapper form input[type="checkbox"]:checked + label:after {
   content: "✔";
   color: #92473e;
   font-family: "Montserrat", sans-serif;
