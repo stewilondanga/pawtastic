@@ -124,11 +124,12 @@ button {
   top: 15px;
 }
 
-/*#form-wrapper form fieldset .signup__field {
+#form-wrapper form fieldset .signup__field {
   display: block;
   padding: 15px 0;
 }
-#form-wrapper form input,
+
+/*#form-wrapper form input,
 #form-wrapper form select {
   border: 1px solid #e2beba;
   border-radius: 3px;
