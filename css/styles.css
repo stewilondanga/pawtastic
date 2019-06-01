@@ -304,21 +304,25 @@ button {
   }
 }
 
-/*@media (min-width: 800px) {
+@media (min-width: 800px) {
   #form-wrapper {
     grid-template-columns: 1fr 2fr;
   }
+
   #form-wrapper form .signup__field:nth-child(odd) {
     padding-left: 0;
   }
-  #form-wrapper form fieldset + .signup__field:nth-child(odd) {
+
+  #form-wrapper form fieldset+.signup__field:nth-child(odd) {
     padding-left: 30px;
   }
-  #form-wrapper form input[type="radio"] + label {
+
+  #form-wrapper form input[type="radio"]+label {
     width: 22.5%;
   }
 }
-@media (min-width: 1000px) {
+
+/*@media (min-width: 1000px) {
   #form-wrapper {
     margin: 75px 60px;
   }
