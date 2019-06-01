@@ -200,11 +200,12 @@ button {
   border: 2px solid #c37b73;
 }
 
-/*#form-wrapper form input[type="radio"]:checked + label {
+#form-wrapper form input[type="radio"]:checked+label {
   background: #c37b73;
   color: #FFF;
 }
-#form-wrapper form input[type="radio"]:checked + label:before {
+
+/*#form-wrapper form input[type="radio"]:checked + label:before {
   background: rgba(195, 123, 115, 0.05);
   border: 2px solid #c37b73;
   left: -1px;
