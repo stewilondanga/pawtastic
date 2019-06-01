@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,285 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v13/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Song Myung';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Song Myung Regular'), local('SongMyung-Regular'), url(https://fonts.gstatic.com/s/songmyung/v7/1cX2aUDWAJH5-EIC7DIhn1aggQ.ttf) format('truetype');
+}
+* {
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+body {
+  background: #84889C;
+  color: #171A2B;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9em;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Song Myung", serif;
+  font-weight: 600;
+}
+h1 a {
+  color: #b4594f;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+}
+h1 a:after {
+  content: "";
+  background: #b4594f;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0;
+  transition: width 0.5s;
+}
+h1 a:focus {
+  outline: none;
+}
+h1 a:focus:after,
+h1 a:hover:after {
+  width: 100%;
+}
+input,
+button {
+  font-family: "Montserrat", sans-serif;
+}
+#form-wrapper {
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 15px;
+  overflow: hidden;
+}
+#form-wrapper .decorative-image {
+  background-image: url("https://placekitten.com/600/250");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: top;
+  min-height: 150px;
+  overflow: hidden;
+  filter: url("#duotone");
+  width: 100%;
+}
+#form-wrapper form {
+  background: #F1E0DE;
+}
+#form-wrapper form fieldset,
+#form-wrapper form h1,
+#form-wrapper form .signup__field,
+#form-wrapper form .signup__button {
+  padding: 15px 30px;
+}
+#form-wrapper form fieldset {
+  border: 0;
+}
+#form-wrapper form fieldset legend {
+  font-family: "Song Myung";
+  font-size: 1.2em;
+  font-weight: 600;
+  padding: 15px 0 0;
+  position: relative;
+  top: 15px;
+}
+#form-wrapper form fieldset .signup__field {
+  display: block;
+  padding: 15px 0;
+}
+#form-wrapper form input,
+#form-wrapper form select {
+  border: 1px solid #e2beba;
+  border-radius: 3px;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  padding: 7.5px;
+  width: 100%;
+}
+#form-wrapper form input:focus,
+#form-wrapper form select:focus {
+  outline-color: #c37b73;
+}
+#form-wrapper form select {
+  padding-right: 15px;
+}
+#form-wrapper form label,
+#form-wrapper form .label {
+  display: block;
+  font-size: 0.9em;
+  margin-bottom: 7.5px;
+  text-transform: capitalize;
+}
+#form-wrapper form input[type="radio"] + label,
+#form-wrapper form input[type="checkbox"] + label {
+  display: inline-block;
+}
+#form-wrapper form input[type="radio"],
+#form-wrapper form input[type="checkbox"] {
+  opacity: 0;
+  padding: 0;
+  width: 15px;
+}
+#form-wrapper form input[type="radio"] + label {
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 7.5px 15px;
+  position: relative;
+  margin: 0 5px;
+  margin-left: 0;
+  text-align: center;
+  width: 100%;
+}
+#form-wrapper form input[type="radio"] + label:before {
+  background: rgba(195, 123, 115, 0.1);
+  border: 1px solid rgba(195, 123, 115, 0.5);
+  border-radius: 3px;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+#form-wrapper form input[type="radio"] + label:after {
+  content: "";
+  display: block;
+}
+#form-wrapper form input[type="radio"]:focus + label:before {
+  border: 2px solid #c37b73;
+}
+#form-wrapper form input[type="radio"]:checked + label {
+  background: #c37b73;
+  color: #FFF;
+}
+#form-wrapper form input[type="radio"]:checked + label:before {
+  background: rgba(195, 123, 115, 0.05);
+  border: 2px solid #c37b73;
+  left: -1px;
+  top: -1px;
+}
+#form-wrapper form input[type="radio"]:checked:focus + label:before {
+  border: 2px solid #FFF;
+}
+#form-wrapper form input[type="checkbox"] + label {
+  position: relative;
+}
+#form-wrapper form input[type="checkbox"] + label:before {
+  background: #FFF;
+  border: 1px solid #e2beba;
+  border-radius: 3px;
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: 0;
+  height: 15px;
+  width: 15px;
+}
+#form-wrapper form input[type="checkbox"]:checked + label:after {
+  content: "✔";
+  color: #92473e;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  left: -17px;
+  top: 0;
+}
+#form-wrapper form input[type="checkbox"]:focus + label:before {
+  border-color: #c37b73;
+}
+#form-wrapper form .signup__field {
+  display: block;
+}
+#form-wrapper form .signup__button {
+  background: #FFFFFF;
+  display: block;
+  text-align: right;
+}
+#form-wrapper form .signup__button button {
+  background: #393D52;
+  border: 1px solid transparent;
+  outline: 0;
+  border-radius: 30px;
+  color: #FFFFFF;
+  padding: 10px 30px;
+}
+#form-wrapper form .signup__button button:focus,
+#form-wrapper form .signup__button button:hover {
+  background: #1a1b25;
+  cursor: pointer;
+}
+#form-wrapper form .signup__button button:focus {
+  border: 1px solid #NaNNaNNaN;
+}
+@media (min-width: 600px) {
+  #form-wrapper {
+    grid-template-columns: 1fr 2.5fr;
+    margin: 45px 30px;
+  }
+  #form-wrapper .decorative-image {
+    background-image: url("https://placekitten.com/200/500");
+    background-position-y: bottom;
+  }
+  #form-wrapper form fieldset,
+  #form-wrapper form h1,
+  #form-wrapper form .signup__field,
+  #form-wrapper form .signup__button {
+    padding: 15px 30px;
+  }
+  #form-wrapper form .signup__field {
+    display: inline-block;
+  }
+  #form-wrapper form input[type="radio"] + label {
+    margin-bottom: 15px;
+    margin-left: -25px;
+    width: 45%;
+  }
+}
+@media (min-width: 800px) {
+  #form-wrapper {
+    grid-template-columns: 1fr 2fr;
+  }
+  #form-wrapper form .signup__field:nth-child(odd) {
+    padding-left: 0;
+  }
+  #form-wrapper form fieldset + .signup__field:nth-child(odd) {
+    padding-left: 30px;
+  }
+  #form-wrapper form input[type="radio"] + label {
+    width: 22.5%;
+  }
+}
+@media (min-width: 1000px) {
+  #form-wrapper {
+    margin: 75px 60px;
+  }
+  #form-wrapper .decorative-image {
+    background-image: url("https://placekitten.com/400/850");
+  }
+  #form-wrapper form fieldset,
+  #form-wrapper form h1,
+  #form-wrapper form .signup__field,
+  #form-wrapper form .signup__button {
+    padding: 15px 60px;
+  }
+  #form-wrapper form fieldset + .signup__field:nth-child(odd) {
+    padding-left: 60px;
+  }
 }
 
 .containers {
