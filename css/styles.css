@@ -256,7 +256,7 @@ button {
   text-align: right;
 }
 
-/*#form-wrapper form .signup__button button {
+#form-wrapper form .signup__button button {
   background: #393D52;
   border: 1px solid transparent;
   outline: 0;
@@ -264,7 +264,8 @@ button {
   color: #FFFFFF;
   padding: 10px 30px;
 }
-#form-wrapper form .signup__button button:focus,
+
+/*#form-wrapper form .signup__button button:focus,
 #form-wrapper form .signup__button button:hover {
   background: #1a1b25;
   cursor: pointer;
