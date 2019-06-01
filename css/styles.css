@@ -246,10 +246,11 @@ button {
   border-color: #c37b73;
 }
 
-/*#form-wrapper form .signup__field {
+#form-wrapper form .signup__field {
   display: block;
 }
-#form-wrapper form .signup__button {
+
+/*#form-wrapper form .signup__button {
   background: #FFFFFF;
   display: block;
   text-align: right;
