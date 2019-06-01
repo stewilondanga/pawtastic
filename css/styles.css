@@ -232,7 +232,7 @@ button {
   width: 15px;
 }
 
-/*#form-wrapper form input[type="checkbox"]:checked + label:after {
+#form-wrapper form input[type="checkbox"]:checked+label:after {
   content: "✔";
   color: #92473e;
   font-family: "Montserrat", sans-serif;
@@ -241,7 +241,8 @@ button {
   left: -17px;
   top: 0;
 }
-#form-wrapper form input[type="checkbox"]:focus + label:before {
+
+/*#form-wrapper form input[type="checkbox"]:focus + label:before {
   border-color: #c37b73;
 }
 #form-wrapper form .signup__field {
