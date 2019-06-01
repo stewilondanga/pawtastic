@@ -156,11 +156,12 @@ button {
   text-transform: capitalize;
 }
 
-/*#form-wrapper form input[type="radio"] + label,
-#form-wrapper form input[type="checkbox"] + label {
+#form-wrapper form input[type="radio"]+label,
+#form-wrapper form input[type="checkbox"]+label {
   display: inline-block;
 }
-#form-wrapper form input[type="radio"],
+
+/*#form-wrapper form input[type="radio"],
 #form-wrapper form input[type="checkbox"] {
   opacity: 0;
   padding: 0;
