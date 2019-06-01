@@ -48,13 +48,14 @@ h5 {
   font-weight: 600;
 }
 
-/*h1 a {
+h1 a {
   color: #b4594f;
   display: inline-block;
   position: relative;
   text-decoration: none;
 }
-h1 a:after {
+
+/*h1 a:after {
   content: "";
   background: #b4594f;
   position: absolute;
