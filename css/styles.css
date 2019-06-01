@@ -80,14 +80,15 @@ button {
   font-family: "Montserrat", sans-serif;
 }
 
-/*#form-wrapper {
+#form-wrapper {
   border-radius: 5px;
   display: grid;
   grid-template-columns: 1fr;
   margin: 15px;
   overflow: hidden;
 }
-#form-wrapper .decorative-image {
+
+/*#form-wrapper .decorative-image {
   background-image: url("https://placekitten.com/600/250");
   background-repeat: no-repeat;
   background-size: cover;
