@@ -179,7 +179,7 @@ button {
   width: 100%;
 }
 
-/*#form-wrapper form input[type="radio"] + label:before {
+#form-wrapper form input[type="radio"]+label:before {
   background: rgba(195, 123, 115, 0.1);
   border: 1px solid rgba(195, 123, 115, 0.5);
   border-radius: 3px;
@@ -190,7 +190,8 @@ button {
   bottom: 0;
   left: 0;
 }
-#form-wrapper form input[type="radio"] + label:after {
+
+/*#form-wrapper form input[type="radio"] + label:after {
   content: "";
   display: block;
 }
