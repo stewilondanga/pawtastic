@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -32,10 +37,6 @@
   font-style: normal;
   font-weight: 400;
   src: local('Song Myung Regular'), local('SongMyung-Regular'), url(https://fonts.gstatic.com/s/songmyung/v7/1cX2aUDWAJH5-EIC7DIhn1aggQ.ttf) format('truetype');
-}
-* {
-  box-sizing: border-box;
-  transition: 0.5s;
 }
 body {
   background: #84889C;
