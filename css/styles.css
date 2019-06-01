@@ -129,7 +129,7 @@ button {
   padding: 15px 0;
 }
 
-/*#form-wrapper form input,
+#form-wrapper form input,
 #form-wrapper form select {
   border: 1px solid #e2beba;
   border-radius: 3px;
@@ -138,7 +138,8 @@ button {
   padding: 7.5px;
   width: 100%;
 }
-#form-wrapper form input:focus,
+
+/*#form-wrapper form input:focus,
 #form-wrapper form select:focus {
   outline-color: #c37b73;
 }
