@@ -265,12 +265,13 @@ button {
   padding: 10px 30px;
 }
 
-/*#form-wrapper form .signup__button button:focus,
+#form-wrapper form .signup__button button:focus,
 #form-wrapper form .signup__button button:hover {
   background: #1a1b25;
   cursor: pointer;
 }
-#form-wrapper form .signup__button button:focus {
+
+/*#form-wrapper form .signup__button button:focus {
   border: 1px solid #NaNNaNNaN;
 }
 @media (min-width: 600px) {
