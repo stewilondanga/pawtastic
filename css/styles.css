@@ -139,11 +139,12 @@ button {
   width: 100%;
 }
 
-/*#form-wrapper form input:focus,
+#form-wrapper form input:focus,
 #form-wrapper form select:focus {
   outline-color: #c37b73;
 }
-#form-wrapper form select {
+
+/*#form-wrapper form select {
   padding-right: 15px;
 }
 #form-wrapper form label,
