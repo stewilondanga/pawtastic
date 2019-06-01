@@ -196,10 +196,11 @@ button {
   display: block;
 }
 
-/*#form-wrapper form input[type="radio"]:focus + label:before {
+#form-wrapper form input[type="radio"]:focus+label:before {
   border: 2px solid #c37b73;
 }
-#form-wrapper form input[type="radio"]:checked + label {
+
+/*#form-wrapper form input[type="radio"]:checked + label {
   background: #c37b73;
   color: #FFF;
 }
